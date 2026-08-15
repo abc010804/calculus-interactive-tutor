@@ -1,0 +1,13 @@
+interface:
+  display_name: 高数交互教学
+  short_description: 用直觉图形推导和练习循序掌握大学高等数学基础核心概念
+  default_prompt: 使用 $calculus-interactive-tutor 带我循序学习一个高数概念。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
